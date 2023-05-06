@@ -1,0 +1,50 @@
+.background {
+	position: absolute;
+}
+
+.subcontainer {
+	height: 45px;
+	width: 90%;
+	margin: 20px 0px;
+	padding: 0px 20px;
+	max-width: 1000px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: var(--secbackground);
+	box-shadow: 3px 3px 5px -2px rgba(22, 22, 26, 0.3);
+	border-radius: 22px;
+	z-index: 2;
+}
+
+.iso {
+	height: auto;
+	width: 95px;
+}
+
+.burger {
+	font-size: 22px;
+	color: var(--tertiary);
+	cursor: pointer;
+}
+
+.homelink {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	color: var(--tertiary);
+	font-weight: 500;
+}
+
+.homeicon {
+	height: 18px;
+	width: 18px;
+	margin-right: 8px;
+}
+
+@media (min-width: 900px) {
+	.burger {
+		display: none;
+	}
+}
