@@ -23,8 +23,8 @@
 }
 
 .burger {
-	font-size: 22px;
-	color: var(--tertiary);
+	height: 28px;
+	width: 28px;
 	cursor: pointer;
 }
 

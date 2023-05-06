@@ -6,14 +6,26 @@
 	top: 0;
 	left: 0;
 	background-color: var(--background);
+	transform: translateX(-100%);
+	transition: transform 0.3s ease;
+}
+
+.navBoxActive {
+	transform: translateX(0%);
+}
+.navBoxInctive {
+	transform: translateX(-100%);
 }
 
 .close {
-	font-size: 30px;
+	height: 55px;
+	width: 55px;
 	position: absolute;
 	top: 20px;
 	right: 20px;
 	cursor: pointer;
+	z-index: 10;
+	border: 3px solid var(--tertiary);
 }
 
 .navList {
@@ -37,6 +49,8 @@
 
 .navRoutes > a {
 	text-decoration: none;
+	font-size: 50px;
+	color: var(--tertiary);
 }
 
 @media (min-width: 900px) {
@@ -48,6 +62,7 @@
 		width: auto;
 		position: initial;
 		background-color: transparent;
+		transform: translateX(0%);
 	}
 	.navList {
 		width: auto;
@@ -58,6 +73,7 @@
 		font-size: 14px;
 	}
 	.navRoutes > a {
+		font-size: 15px;
 		color: var(--tertiary);
 	}
 }
