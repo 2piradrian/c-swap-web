@@ -1,0 +1,29 @@
+.gradient {
+	text-align: center;
+	max-width: 1000px;
+	width: 85%;
+	font-size: 65px;
+	font-weight: 900;
+	background: linear-gradient(to right, var(--main), var(--secondary));
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+@media (min-width: 425px) {
+	.gradient {
+		font-size: 70px;
+	}
+}
+
+@media (min-width: 555px) {
+	.gradient {
+		font-size: 90px;
+	}
+}
+
+@media (min-width: 768px) {
+	.gradient {
+		font-size: 100px;
+	}
+}
