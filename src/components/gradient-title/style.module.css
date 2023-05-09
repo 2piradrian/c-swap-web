@@ -4,7 +4,8 @@
 	width: 85%;
 	font-size: 65px;
 	font-weight: 900;
-	background: linear-gradient(to right, var(--main), var(--secondary));
+	background: linear-gradient(to right bottom, var(--main), var(--secondary));
+	opacity: 0.95;
 	-webkit-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
