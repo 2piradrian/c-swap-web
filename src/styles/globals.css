@@ -39,6 +39,18 @@ html * {
 	overflow: hidden;
 }
 
+.betweencontainer {
+	min-height: 100vh;
+	padding: 50px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	overflow: hidden;
+}
+
 .smallcontainer {
 	height: auto;
 	width: 100%;
