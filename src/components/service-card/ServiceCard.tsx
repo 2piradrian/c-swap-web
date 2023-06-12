@@ -16,7 +16,7 @@ function ServiceCard({ service, icon, deco }: Props) {
 				alt={service}
 				className={style.icon}
 			/>
-			<h3>{service}</h3>
+			<h3 className={style.name}>{service}</h3>
 			<Image
 				src={require(`../../assets/decoration/${deco}.svg`)}
 				alt={service}
