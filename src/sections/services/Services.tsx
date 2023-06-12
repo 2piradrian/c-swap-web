@@ -8,9 +8,21 @@ function Services() {
 		<section className="betweencontainer">
 			<Title title="Mira todo lo que tenemos para ofrecerte" />
 			<div className={style.serviceContainer}>
-				<ServiceCard service="Diseño de identidad" icon="design-service" />
-				<ServiceCard service="Programación web" icon="develop-service" />
-				<ServiceCard service="Diseño UX/UI" icon="uxui-service" />
+				<ServiceCard
+					service="Diseño de identidad"
+					icon="design-service"
+					deco="service-card-deco1"
+				/>
+				<ServiceCard
+					service="Programación web"
+					icon="develop-service"
+					deco="service-card-deco2"
+				/>
+				<ServiceCard
+					service="Diseño UX/UI"
+					icon="design-service"
+					deco="service-card-deco3"
+				/>
 			</div>
 			<div>Contratame</div>
 		</section>
