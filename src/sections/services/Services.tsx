@@ -24,7 +24,7 @@ function Services() {
 					deco="service-card-deco3"
 				/>
 			</div>
-			<div>Contratame</div>
+			<div className={style.contactButton}>Contrátanos</div>
 		</section>
 	);
 }

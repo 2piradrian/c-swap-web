@@ -1,0 +1,11 @@
+.marketingContainer {
+	width: 100%;
+	max-width: 1200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 20px;
+	padding: 0px 50px;
+	gap: 20px;
+}

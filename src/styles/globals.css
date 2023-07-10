@@ -39,11 +39,25 @@ html * {
 	overflow: hidden;
 }
 
+.columncontainer {
+	min-height: 100vh;
+	padding: 50px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	position: relative;
+	overflow: hidden;
+}
+
 .betweencontainer {
 	min-height: 100vh;
 	padding: 50px;
 	width: 100%;
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
@@ -59,4 +73,6 @@ html * {
 	justify-content: center;
 	align-items: center;
 	position: relative;
+	padding: 20px 0px;
+	gap: 45px;
 }

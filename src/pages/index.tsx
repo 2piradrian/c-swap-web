@@ -1,5 +1,6 @@
 import AppLayout from "@/layout/AppLayout";
 import Hero from "@/sections/hero/Hero";
+import Marketing from "@/sections/marketing/Marketing";
 import Services from "@/sections/services/Services";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
 			<main>
 				<Hero />
 				<Services />
+				<Marketing />
 			</main>
 		</AppLayout>
 	);

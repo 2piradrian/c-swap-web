@@ -1,0 +1,40 @@
+.container {
+	height: 280px;
+	width: 280px;
+	position: relative;
+	border: 2px solid var(--main);
+	border-radius: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	box-shadow: 3px 3px 5px -2px rgba(22, 22, 26, 0.3);
+	transition: all 0.5s ease-in-out;
+}
+
+.container:hover {
+	transform: scale(1.05);
+	box-shadow: 3px 3px 5px -2px rgba(22, 22, 26, 0.5);
+}
+
+.container:hover .deco {
+	transform: scale(1.15);
+}
+
+.icon {
+	width: 50px;
+}
+
+.deco {
+	position: absolute;
+	bottom: -40px;
+	transition: all 0.5s ease-in-out;
+}
+
+.name {
+	color: var(--main);
+	font-weight: 800;
+	font-size: 25px;
+}
